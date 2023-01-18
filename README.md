@@ -17,3 +17,9 @@ https://github.com/KCcooldude11/Startup/blob/b71c3c176ee49fd21d89d072528e6b50f76
 
 So for future reference, when navigating vim, typing i puts you into insert mode where you can edit files. Pressing ESC will then get you out of insert mode. Finally, typing :wq will write to the file (w) and quit (q)
 Also, be very careful when typing file names to get them exactly correct. for example when typing "sudo vim Caddyfile" do NOT type CaddyFile. This will create a new file rather than access the already existing Caddyfile.
+
+Here are some html special characters that have codes to put them on the page:
+& = &amp;
+< = &lt;
+> = &gt;
+smiley face = &#128512;
