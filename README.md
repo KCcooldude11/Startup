@@ -13,3 +13,7 @@ I had the idea to create a website a little like pottermore which is a website t
 Other than the main feature of the quiz, I might implement an easter egg of allowing a certain sequence of answers to the quiz to allow the user to be sorted not into one element, but all 4, and thus becoming the "avatar". At the end of the quiz the user will be greeted with an artistic representation of their particular element/nation.
 
 https://github.com/KCcooldude11/Startup/blob/b71c3c176ee49fd21d89d072528e6b50f76e29a5/Screenshot%202023-01-12%20144519.png
+
+
+So for future reference, when navigating vim, typing i puts you into insert mode where you can edit files. Pressing ESC will then get you out of insert mode. Finally, typing :wq will write to the file (w) and quit (q)
+Also, be very careful when typing file names to get them exactly correct. for example when typing "sudo vim Caddyfile" do NOT type CaddyFile. This will create a new file rather than access the already existing Caddyfile.
