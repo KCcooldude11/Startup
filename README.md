@@ -23,3 +23,6 @@ Here are some html special characters that have codes to put them on the page:
 < = &lt;
 > = &gt;
 smiley face = &#128512;
+
+
+From working on the simon.html assignment I learned about hexadecimal colors, and how to apply both normal predefined colors and hexadecimal colors to text and shapes. I also learned about changing font, size and positioning of text, as well as how to take input from users in multiple different ways like buttons, uploading files, emails etc.
