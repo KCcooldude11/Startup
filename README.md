@@ -26,3 +26,8 @@ smiley face = &#128512;
 
 Simon.Html reflection:
 From working on the simon.html assignment I learned about hexadecimal colors, and how to apply both normal predefined colors and hexadecimal colors to text and shapes. I also learned about changing font, size and positioning of text, as well as how to take input from users in multiple different ways like buttons, uploading files, emails etc.
+
+
+From the Flex assignment I learned and messed around with flex and hmtl <button> to make a page that is
+  somewhat interactible. *I would still like to learn how to use a javascript with the <button> to
+  do something when the button is pressed rather than just animate the button.
