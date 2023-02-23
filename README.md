@@ -27,6 +27,7 @@ smiley face = &#128512;
 Simon.Html reflection:
 From working on the simon.html assignment I learned about hexadecimal colors, and how to apply both normal predefined colors and hexadecimal colors to text and shapes. I also learned about changing font, size and positioning of text, as well as how to take input from users in multiple different ways like buttons, uploading files, emails etc.
 
+<<<<<<< HEAD
 CSS - you can add a shadow to text using the following:
 text-shadow: 3px 3px 1px #cccccc;
 the px numbers specify the xyz positioning of the shadow, and the #cccccc tells it to be black.
@@ -35,3 +36,9 @@ Simon CSS:
 From this assignment I learned much more about how to impliment CSS boostrap, CSS, and basic HTML in many different ways. For example I messed around first just with a basic paragraph in html and used basic css to format a line on the score.html text page. Then I messed around with the original code for that page having to do with bootstrap tables, and found out how they work and how simple yet clean they look!
 
 I also learned how to take images from the web and set them as a a background, and how you can do so for any different block of the page such as a header, footer, main etc.
+=======
+
+From the Flex assignment I learned and messed around with flex and hmtl <button> to make a page that is
+  somewhat interactible. *I would still like to learn how to use a javascript with the <button> to
+  do something when the button is pressed rather than just animate the button.
+>>>>>>> e52955e8862e3fa544160639b7b0c00202c6971e
