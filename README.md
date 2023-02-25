@@ -41,4 +41,13 @@ I also learned how to take images from the web and set them as a a background, a
 From the Flex assignment I learned and messed around with flex and hmtl <button> to make a page that is
   somewhat interactible. *I would still like to learn how to use a javascript with the <button> to
   do something when the button is pressed rather than just animate the button.
->>>>>>> e52955e8862e3fa544160639b7b0c00202c6971e
+
+  
+  Simon.css:
+  While doing this assignment I learned the different strengths of boostrap vs regular css such as
+  the usage of boostrap tables. I spent some time trying to make a table from scratch in css which proved very 
+  difficult, however, the boostrap tables were easy to work with. I also learned how to add background images for 
+  pages and such.
+  
+  
+  
