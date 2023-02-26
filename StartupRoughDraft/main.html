@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <title>Benders Haven</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css" />
@@ -11,7 +12,54 @@
       crossorigin="anonymous"
     />
     </head>
-    <body class="bg-blue text-light">
+    <body>
+      <header>
+        <a href="#" class="logo"> Logo</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <section>
+        <img src="R.png" id="stars">
+        <img src="mountain2.png" id="mountain";>
+        <img src="moon.png" id="moon";>
+        <h2 id="text">Moon Light</h2>
+        <a href="#" id="btn">Explore</a>
+      </section>
+      <div class="sec" id="sec">
+        <h2>
+          Blah Blah
+        </h2>
+        <p>
+          asktjaskdjtlasjkdtjaksljdtlkjasdl ajskldtjal asktjaskdjtlasjkdtjaksljdtlkjasdlastaslkdt
+          asdtalskudtlkau aslkdtklausdtuk<br> <br>
+          asktjaskdjtlasjkdtjaksljdtlkjasdl ajskldtjal asktjaskdjtlasjkdtjaksljdtlkjasdlastaslkdt
+          asdtalskudtlkau aslkdtklausdtuk
+        </p>
+      </div>
+      <script>
+        let stars = document.getElementById("stars");
+        let moon = document.getElementById('moon');
+        let mountain = document.getElementById('mountain');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+
+        window.addEventListener('scroll', function(){
+          let value = window.scrollY;
+          stars.style.left = value  * 0.25 + 'px';
+          moon.style.top = value  * 1.05 + 'px';
+          mountain.style.top = value  * 0.05 + 'px';
+          text.style.marginRight = value * 4 + 'px';
+          text.style.marginTop = value * 1.5 + 'px';
+          btn.style.marginTop = value * 1.5 + 'px';
+        })
+      </script>
+    </body>
+    
+    <!-- <body class="bg-blue text-light">
         <header class="container-fluid">
           <nav class="navbar fixed-top navbar-dark">
             <a class="navbar-brand" href="#">Simon<sup>&reg;</sup></a>
@@ -19,7 +67,22 @@
               
             </menu>
           </nav>
-        </header>
+        </header> -->
+        <!-- <div class="container text-center">
+          <div class="row">
+            <div class="col text-white bg-primary fs-1">
+              Column
+            </div>
+            <div class="col text-white bg-primary fs-1">
+              Column
+            </div>
+            <div class="col text-white bg-primary fs-1">
+              Column
+            </div>
+          </div>
+        </div>  -->
+
+
     <!-- <p class="text-white bg-primary fs-1">white text on primary bg</p>
      <button class="btn btn-primary">hi</button> -->
 </html>
