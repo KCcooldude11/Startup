@@ -57,6 +57,7 @@ padding: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
+overflow: hidden;
 }
 section::before{
     content: '';
@@ -77,10 +78,10 @@ section img{
 }
 section img#moon{
     mix-blend-mode: screen;
-    left: 260px;
+    left:288px;
 
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 #text
 {
