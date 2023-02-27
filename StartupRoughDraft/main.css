@@ -77,34 +77,6 @@ section img{
     height: 100%;
     object-fit: cover;
 }
-/* section img#air{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 90px;
-    top: 120px;
-} */
-/* section img#earth{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 250px;
-    top: 285px;
-}
-section img#fire{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 250px;
-    top: 120px;
-} */
-/* section img#water{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 90px;
-    top: 285px;
-} */
 .fire{
     position: absolute;
     width: 150px;
@@ -140,7 +112,6 @@ section img#fire{
 section img#moon{
     mix-blend-mode: screen;
     position: absolute;
-    top: 43%;
     left: 42.5%;
     width: 275px;
     height: 275px;
@@ -188,3 +159,33 @@ section img#moon{
     0%{ opacity: 0;}
     100%{ opacity: 1;}
 }
+
+
+/* section img#air{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 90px;
+    top: 120px;
+} */
+/* section img#earth{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 250px;
+    top: 285px;
+}
+section img#fire{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 250px;
+    top: 120px;
+} */
+/* section img#water{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 90px;
+    top: 285px;
+} */
