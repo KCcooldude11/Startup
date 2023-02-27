@@ -14,30 +14,50 @@
     </head>
     <body>
       <header>
-        <a href="#" class="logo"> Logo</a>
+        <a href="#" class="logo">Bender's Haven</a>
         <ul>
           <li><a href="#">Home</a></li>
+          <li><a href="#">Quiz</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </header>
       <section>
         <img src="R.png" id="stars">
+        <!-- <img src="earth.png" id="earth";> -->
+        <div class = "fire">
+          <img src="fire.png">
+        </div>
+        <div class = "air">
+          <img src="air.png">
+        </div>
+        <div class = "water">
+          <img src="water.png">
+        </div>
+        <div class = "earth">
+          <img src="earth.png">
+        </div>
+        <!-- <img src="fire.png" id="fire";> -->
+        <!-- <img src="air.png" id="air";>
+        <img src="water.png" id="water";> -->
         <img src="mountain2.png" id="mountain";>
-        <img src="moon.png" id="moon";>
-        <h2 id="text">Moon Light</h2>
+        <img src="moon-yue.png" id="moon";>
+        <h2 id="text">Moon Spirit</h2>
         <a href="#" id="btn">Explore</a>
       </section>
       <div class="sec" id="sec">
         <h2>
-          Blah Blah
+          Long Ago...
         </h2>
         <p>
-          asktjaskdjtlasjkdtjaksljdtlkjasdl ajskldtjal asktjaskdjtlasjkdtjaksljdtlkjasdlastaslkdt
-          asdtalskudtlkau aslkdtklausdtuk<br> <br>
-          asktjaskdjtlasjkdtjaksljdtlkjasdl ajskldtjal asktjaskdjtlasjkdtjaksljdtlkjasdlastaslkdt
-          asdtalskudtlkau aslkdtklausdtuk
+          the four nations lived together in harmony. Then everything changed 
+          when the Fire Nation attacked.<br><br>
+          Only the Avatar, master of all four elements , could stop them. 
+          But when the world needed him most, he vanished. <br> <br>
+          A hundred years passed and my brother and I discovered the new Avatar, an airbender named Aang, 
+          <br>and although his airbending skills are great, he still has a lot to learn before he's ready to save anyone. <br> <br>
+          But I believe Aang can save the world.
+
         </p>
       </div>
       <script>
@@ -47,6 +67,10 @@
         let text = document.getElementById('text');
         let btn = document.getElementById('btn');
         let header = document.querySelector('header');
+        // let earth = document.getElementById("earth");
+        // let water = document.getElementById("water");
+        // let fire = document.getElementById("fire");
+        // let air = document.getElementById("air");
 
         window.addEventListener('scroll', function(){
           let value = window.scrollY;
@@ -54,8 +78,8 @@
           moon.style.top = value  * 1.05 + 'px';
           mountain.style.top = value  * 0.05 + 'px';
           text.style.marginRight = value * 4 + 'px';
-          text.style.marginTop = value * 1.5 + 'px';
-          btn.style.marginTop = value * 1.5 + 'px';
+          text.style.marginTop = value * 2.5 + 'px';
+          btn.style.marginTop = value * 2.5 + 'px';
           header.style.top = value * 0.5 + 'px';
         })
       </script>
