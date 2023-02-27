@@ -31,6 +31,7 @@ header .logo{
     letter-spacing: 2px;
 }
 header ul{
+    font-size: 1.2em;
     display: flex;
     justify-content: center;
     margin-left: 20px;
@@ -76,13 +77,73 @@ section img{
     height: 100%;
     object-fit: cover;
 }
+/* section img#air{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 90px;
+    top: 120px;
+} */
+/* section img#earth{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 250px;
+    top: 285px;
+}
+section img#fire{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 250px;
+    top: 120px;
+} */
+/* section img#water{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 90px;
+    top: 285px;
+} */
+.fire{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 250px;
+    top: 120px;
+    animation: fadeIn 10s;
+}
+.earth{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 250px;
+    top: 285px;
+    animation: fadeIn 10s; 
+}
+.water{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 90px;
+    top: 285px;
+    animation: fadeIn 10s;
+}
+.air{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 90px;
+    top: 120px;
+    animation: fadeIn 10s;
+}
 section img#moon{
     mix-blend-mode: screen;
-    top: 50%;
-    left: 50%;
-
-    width: 250px;
-    height: 250px;
+    position: absolute;
+    top: 43%;
+    left: 42.5%;
+    width: 275px;
+    height: 275px;
 }
 #text
 {
@@ -93,6 +154,7 @@ section img#moon{
     font-size: 7.5vw;
     z-index: 9;
     transform: translateY(100px);
+    text-shadow: 2.5px 2.5px 2.5px #20a4a4;
 }
 #btn{
     text-decoration: none;
@@ -120,4 +182,9 @@ section img#moon{
     font-size: 1em;
     margin-bottom: 1-px;
     color: #fff; 
+}
+
+@keyframes fadeIn{
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
 }
