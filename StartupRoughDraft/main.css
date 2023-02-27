@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 body{
     min-height: 100vh;
@@ -137,6 +137,14 @@ section img#moon{
     font-size: 1.5em;
     z-index: 9;
     transform: translateY(175px);
+}
+#btn:hover{
+    background-color: #5734ae}
+
+#btn:active{
+background-color: #5734ae;
+box-shadow: 0 3px #666;
+transform: translateY(177px);
 }
 .sec{
     position: relative;
