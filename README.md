@@ -49,5 +49,20 @@ From the Flex assignment I learned and messed around with flex and hmtl <button>
   difficult, however, the boostrap tables were easy to work with. I also learned how to add background images for 
   pages and such.
   
+  Startup Html/CSS
+  
+    This assignment taught me A LOT about writing my own css, using boostrap, and even a little bit of basic javascript to get look scroll effect animations. One big thing I learned is that to save time you can make a section class in which you can include images, text and other objects and within the section css part include universal positioning, padding, width/height etc. and then all of the objects within section will fallback on those presets. This also caused me a little confusion at times though at times.
+    Box-shadow works with a button, even if button is reshaped into a elipse.
+    You can animate text or even an image with (example->) @keyframes _animationname{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+    font-weight can give text a wider brushstroke appearance, allowing for a kind of font
+    customization outside of font presets you may be working with
+    To give a background a cooler look rather than a simple solid color you can use:
+    linear-gradient(1 color, 2nd color) and it will fade from on color to another
+    using #btn:hover you can add a color change or some animation when the
+    user hovers over a button, and with #btn:active you can add what happens
+    when a user presses the button.
   
   
