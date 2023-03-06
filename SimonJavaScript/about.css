@@ -135,6 +135,10 @@ body {
     text-shadow: 2px 2px 2px rgb(10, 73, 98);
   }
   
+  .simon:hover, .simon.active{
+    transform: rotate(180deg);
+  }
+
   .score {
     position: absolute;
     text-align: center;

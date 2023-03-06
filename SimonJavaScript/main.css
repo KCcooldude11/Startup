@@ -40,6 +40,10 @@ menu {
   border-bottom: solid rgb(182, 182, 182) thin;
 }
 
+.simon:hover, .simon.active{
+  transform: rotate(180deg);
+}
+
 menu .nav-item {
   padding: 0 0.3em;
 }

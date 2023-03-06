@@ -55,7 +55,9 @@ body {
   footer a {
     float: right;
   }
-  
+  .simon:hover, .simon.active{
+    transform: rotate(180deg);
+  }
   #count {
     color: rgb(246, 239, 158);
   }
