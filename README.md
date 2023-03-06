@@ -65,4 +65,15 @@ From the Flex assignment I learned and messed around with flex and hmtl <button>
     user hovers over a button, and with #btn:active you can add what happens
     when a user presses the button.
   
+  Simon JavaScript:
+  
+    It was really fun to mess around with the extra effects added to the simon game using javascript. 
+    I think what I learned the most is how to store input from a user and then call on that input
+    later to store as a variable such as a username, pressed choice or so. This will be very helpful
+    for the quiz I am going to make for the finished startup project so I should look back on this project 
+    when working on that quiz portion.
+    I might consider adding sound effects to my startup as well, as I was able to succesfully use the base of simon
+    and replace the sound effects in some cases with my own royalty free sound effects. ALthough it was difficult
+    because sound effects with even 2 seconds of sound lasted too long and made the game take forever, 
+    atleast with the default settings.
   
