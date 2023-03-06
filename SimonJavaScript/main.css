@@ -64,6 +64,9 @@ footer a {
   font-size: 25px;
   text-shadow: 3px 3px 3px rgb(98, 187, 169);
 }
+.player-name:hover, .player-name.active{
+  color: rgb(13, 169, 231);
+}
 
 .game {
   background: rgb(0, 0, 0);
@@ -92,12 +95,17 @@ footer a {
   background-color: green;
   border: thick solid rgb(36, 53, 0);
 }
-
+.button-top-left:hover, .button-top-left.active{
+  transform: translateY(2px);
+}
 .button-top-right {
   border-radius: 0 100% 0 0;
   margin: 20px 20px 0 0;
   background-color: red;
   border: thick solid rgb(83, 12, 12);
+}
+.button-top-right:hover, .button-top-right.active{
+  transform: translateY(2px);
 }
 
 .button-bottom-left {
@@ -107,6 +115,13 @@ footer a {
   border: thick solid rgb(94, 90, 10);
 }
 
+.button-bottom-left:hover, .button-bottom-left.active{
+  transform: translateY(2px);
+}
+
+.button-bottom-right:hover, .button-bottom-right.active{
+  transform: translateY(2px);
+}
 .button-bottom-right {
   border-radius: 0 0 100% 0;
   margin: 0 20px 20px 0;
@@ -133,6 +148,11 @@ footer a {
   margin-bottom: 0.5em;
   color: rgb(13, 169, 231);
   text-shadow: 2px 2px 2px rgb(10, 73, 98);
+}
+.game-name:hover, .game-name.active{
+  color: rgb(68, 68, 191);
+  text-shadow: 2px 2px 2px rgb(44, 147, 188);
+  transform: translateY(2px);
 }
 
 .score {

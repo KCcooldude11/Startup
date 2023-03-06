@@ -178,7 +178,7 @@ body {
   
   @keyframes animated-text{
     from{width: 0;}
-    to{width: 900px;}
+    to{width: 730px;}
   }
   @keyframes animated-cursor{
     from{border-right-color: rgba(50, 211, 247, 0.75);}
