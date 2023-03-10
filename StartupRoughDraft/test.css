@@ -51,11 +51,11 @@ header .logo{
   border-radius: 25px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #6e93f7;
+  background: #9dc2e6;
   border-radius: 25px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #4070f4;
+  background: #9dc2e6;
 }
 .container {
   z-index: 6;
