@@ -5,15 +5,15 @@ function randomNumber(){
     let earth = 4;
     let bending = Math.floor(Math.random() * (4-1 +1))+1;
     if(bending == water){
-        window.location.href = "index.html";
+        window.location.href = "water.html";
     }
     else if(bending == fire){
-        window.location.href = "about.html";
+        window.location.href = "fire.html";
     }
     else if(bending==air){
-        window.location.href = "contact.html";
+        window.location.href = "air.html";
     }
     else if(bending==earth){
-        window.location.href = "quiz.html";
+        window.location.href = "earth.html";
     }
 }
