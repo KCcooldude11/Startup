@@ -140,10 +140,15 @@ header .logo{
   }
   #finBtn{
     position: relative;
-    left: 100px;
+    left: 200px;
     padding: 20px;
     padding-right: 25px;
     padding-left: 25px;
+  }
+  p2{
+    position: relative;
+    top: 100px;
+    left: -90px;
   }
   /* #myBtn2{
     text-decoration: none;
