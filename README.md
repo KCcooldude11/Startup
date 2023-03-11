@@ -77,3 +77,17 @@ From the Flex assignment I learned and messed around with flex and hmtl <button>
     because sound effects with even 2 seconds of sound lasted too long and made the game take forever, 
     atleast with the default settings.
   
+  Startup JavaSscript:
+  This stage of the Startup was super fun because I was able to actually do some cool things using
+  javascript to make certain actions do something else. For example, I had a quiz that would
+  use a random number generator function (between 1 and 4) to choose a random element for the
+  user to become. Now the ideal end goal is to make it so their quiz submissions directly
+  influence the result of the element, but it was cool to work towards a still difficult yet
+  easier way to give the user a result before I actually figure out better how to impliment
+  their real results. I also learned a lot more about page formatting and buttons. To accomplish the quiz
+  I figured out how to make a button link to a javascript function, and then how to make that javascript function
+  with if statements send the user to various other html pages i made using:
+  window.location.href = "water.html";
+  for example.
+  this code will send the user to that html page!
+  
