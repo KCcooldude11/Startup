@@ -91,3 +91,7 @@ From the Flex assignment I learned and messed around with flex and hmtl <button>
   for example.
   this code will send the user to that html page!
   
+  Simon Service:
+  So I didn't make a lot of major changes from my previous design of simon, but it was cool to be able to host it in a different way than before with node express. I ran into some problems with deploying that came down to one missing letter due to a mishap with pasting, so lesson learned, always double check when you paste in code...
+all in all though, I learned quite a bit from this, technicalities and such. It is cool now though that when the system restarts the scores will be reset as well.
+  
