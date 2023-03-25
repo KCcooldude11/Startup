@@ -94,4 +94,7 @@ From the Flex assignment I learned and messed around with flex and hmtl <button>
   Simon Service:
   So I didn't make a lot of major changes from my previous design of simon, but it was cool to be able to host it in a different way than before with node express. I ran into some problems with deploying that came down to one missing letter due to a mishap with pasting, so lesson learned, always double check when you paste in code...
 all in all though, I learned quite a bit from this, technicalities and such. It is cool now though that when the system restarts the scores will be reset as well.
+
+Simon DB:
+I didn't mess around as much with this activity as the previous ones, as I had a lot of bugs. Due to these bugs unfortunately I wasn't able to work out my past changes to simon with mongo, but I plan to do so over the next few days on my own time. However, I learned that many small factors can stop the scores from being transmitted to my database, so it is worth being extra careful in the future! Overall though, this was a very educational activity.
   
