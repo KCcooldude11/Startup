@@ -1,26 +1,19 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
+  min-width: 375px;
 }
-@font-face{
-  font-family: Gagalin-Regular;
-  src: url("Gagalin-Regular.otf") format("truetype");
 
-}
 header {
   flex: 0 80px;
-  font-family: Gagalin-Regular;
 }
 
 main {
   flex: 1 calc(100vh - 110px);
-  font-family: Gagalin-Regular;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(#d5d5a9,#1e3e9f )
 }
 
 footer {
@@ -40,10 +33,6 @@ menu {
   border-bottom: solid rgb(182, 182, 182) thin;
 }
 
-.simon:hover, .simon.active{
-  transform: rotate(180deg);
-}
-
 menu .nav-item {
   padding: 0 0.3em;
 }
@@ -60,16 +49,10 @@ footer a {
   flex: 1;
   width: 100%;
   padding: 0.5em;
-  font-size: 20px;
 }
 
 .player-name {
-  color: rgb(17, 58, 179);
-  font-size: 25px;
-  text-shadow: 3px 3px 3px rgb(98, 187, 169);
-}
-.player-name:hover, .player-name.active{
-  color: rgb(13, 169, 231);
+  color: rgb(118, 190, 210);
 }
 
 .game {
@@ -99,17 +82,12 @@ footer a {
   background-color: green;
   border: thick solid rgb(36, 53, 0);
 }
-.button-top-left:hover, .button-top-left.active{
-  transform: translateY(2px);
-}
+
 .button-top-right {
   border-radius: 0 100% 0 0;
   margin: 20px 20px 0 0;
   background-color: red;
   border: thick solid rgb(83, 12, 12);
-}
-.button-top-right:hover, .button-top-right.active{
-  transform: translateY(2px);
 }
 
 .button-bottom-left {
@@ -119,13 +97,6 @@ footer a {
   border: thick solid rgb(94, 90, 10);
 }
 
-.button-bottom-left:hover, .button-bottom-left.active{
-  transform: translateY(2px);
-}
-
-.button-bottom-right:hover, .button-bottom-right.active{
-  transform: translateY(2px);
-}
 .button-bottom-right {
   border-radius: 0 0 100% 0;
   margin: 0 20px 20px 0;
@@ -150,13 +121,6 @@ footer a {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0.5em;
-  color: rgb(13, 169, 231);
-  text-shadow: 2px 2px 2px rgb(10, 73, 98);
-}
-.game-name:hover, .game-name.active{
-  color: rgb(68, 68, 191);
-  text-shadow: 2px 2px 2px rgb(44, 147, 188);
-  transform: translateY(2px);
 }
 
 .score {
@@ -174,13 +138,20 @@ footer a {
   background-color: #300;
 }
 
+td {
+  max-width: 40vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .center {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
-@media (max-height: 500px) {
+@media (max-height: 600px) {
   header {
     display: none;
   }

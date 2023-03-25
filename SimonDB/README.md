@@ -1,3 +1,3 @@
-# simon-javascript
+# simon-db
 
-This deliverable demonstrates the use of basic JavaScript for interactivity.
+This deliverable demonstrates using a database service, MongoDB, to persistently save data.
