@@ -98,3 +98,7 @@ all in all though, I learned quite a bit from this, technicalities and such. It 
 Simon DB:
 I didn't mess around as much with this activity as the previous ones, as I had a lot of bugs. Due to these bugs unfortunately I wasn't able to work out my past changes to simon with mongo, but I plan to do so over the next few days on my own time. However, I learned that many small factors can stop the scores from being transmitted to my database, so it is worth being extra careful in the future! Overall though, this was a very educational activity.
   
+ Simon Login:
+ I'm not sure if I will have time to impliment this, but this assignment led me to a new idea for my startup website where after a user is "sorted"
+ into one of the 4 elements, the website would remember that based on their login information, and like maybe give them a ui indication
+ of that element each time they visit the website. This would be cool and make it more like sites like pottermore(wizardingworld) where when you come back you still have the house you were previously sorted into.
