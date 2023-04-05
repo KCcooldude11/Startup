@@ -191,3 +191,15 @@ header .logo{
     transform: scale(2);
   }
 }
+.players{
+  font-family: 'Herculanum';
+  color: white;
+  background-color: rgb(194, 152, 28);
+  position: absolute;
+  top: 0;
+  left: 100;
+  font-size: 1.5em;
+  display: flex;
+  border-radius: 20px;
+  padding: 20px 20px;;
+}

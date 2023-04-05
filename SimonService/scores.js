@@ -14,7 +14,6 @@ async function loadScores() {
       scores = JSON.parse(scoresText);
     }
   }
-
   displayScores(scores);
 }
 
