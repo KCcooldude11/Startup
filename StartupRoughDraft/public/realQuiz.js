@@ -18,6 +18,10 @@ saveElement(element){
 getPlayerName(){
     return localStorage.getItem('userName') ?? 'Mystery player';
 }
+checkElement(){
+    let bending = randomNumber();
+    this.saveElement(bending);
+}
 }
 const game = new Game();
 function randomNumber(){
@@ -27,15 +31,24 @@ function randomNumber(){
     let earth = 4;
     let bending = Math.floor(Math.random() * (4-1 +1))+1;
     if(bending == water){
+        // this.saveElement("Water");
+        bending = "Water";
         window.location.href = "water.html";
     }
     else if(bending == fire){
+        // this.saveElement("Fire");
+        bending = "Fire";
         window.location.href = "fire.html";
     }
     else if(bending==air){
+        // this.saveElement("Air");
+        bending = "Air";
         window.location.href = "air.html";
     }
     else if(bending==earth){
+        // this.saveElement("Earth");
+        bending = "Earth";
         window.location.href = "earth.html";
     }
+    return bending;
 }
