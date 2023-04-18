@@ -15,6 +15,16 @@ saveElement(element){
 
     localStorage.setItem('elements', JSON.stringify(elements));
 }
+// updateElement(element){
+//     const elementEl = document.querySelector('#element');
+//     elementEl.textContent = element;
+// }
+    updateElement(userName, element, elements){
+        const date = new Date().toLocaleDateString();
+        const newElement = { name: userName, element: element, date: date };
+        elements.push(newElement);
+        return elements;
+    }
 getPlayerName(){
     return localStorage.getItem('userName') ?? 'Mystery player';
 }
@@ -50,5 +60,5 @@ function randomNumber(){
         bending = "Earth";
         window.location.href = "earth.html";
     }
-    return bending;
+    checkElement(bending);
 }
